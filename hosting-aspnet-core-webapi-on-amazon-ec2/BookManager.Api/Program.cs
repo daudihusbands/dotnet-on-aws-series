@@ -21,7 +21,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.MapGet("/", () => "Welcome to the Book API!");
 
